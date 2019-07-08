@@ -247,6 +247,10 @@ img { max-width: 100%; }
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffb24b', endColorstr='#9b59b6',GradientType=0 ); /* IE6-9 */
 }
 
+.texto-talleres{
+	text-align: left
+}
+
 .services-box h3 {
 	margin-top: 0;
 	padding: 0 0 10px 0;
