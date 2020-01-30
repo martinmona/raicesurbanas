@@ -171,7 +171,7 @@ img { max-width: 100%; }
 	backface-visibility: hidden;
 	font-weight: bold;
 }
-.navbar.navbar-no-bg { background: white; background: rgba(74, 158, 58, 0.5); }
+.navbar.navbar-no-bg { background: white; background: rgba(74, 158, 58, 0.8); }
 
 .navbar-dark .navbar-nav { font-size: 15px;; color: #fff; font-weight: 600; }
 .navbar-dark .navbar-nav .nav-link { color: #fff; color: rgba(255, 255, 255, 0.8); border: 0; }
