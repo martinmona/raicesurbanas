@@ -31,7 +31,7 @@ jQuery(document).ready(function() {
     */
     $('.top-content').backstretch("assets/img/backgrounds/1.JPG");
     $('.call-to-action-container').backstretch("assets/img/backgrounds/2.jpg");
-    $('.testimonials-container').backstretch("assets/img/backgrounds/3.JPG");
+    $('.productos-container').backstretch("assets/img/backgrounds/3.JPG");
     
     $('#top-navbar-1').on('shown.bs.collapse', function(){
     	$('.top-content').backstretch("resize");
@@ -41,7 +41,7 @@ jQuery(document).ready(function() {
     });
     
     $('a[data-toggle="tab"]').on('shown.bs.tab', function(){
-    	$('.testimonials-container').backstretch("resize");
+    	$('.productos-container').backstretch("resize");
     });
     
     /*
@@ -57,7 +57,7 @@ jQuery(window).load(function() {
 	/*
 		Hidden images
 	*/
-	$(".testimonial-image img").attr("style", "width: auto !important; height: auto !important;");
+	$(".producto-image img").attr("style", "width: auto !important; height: auto !important;");
 	
 });
 

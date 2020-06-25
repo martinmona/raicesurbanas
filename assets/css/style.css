@@ -463,46 +463,46 @@ img { max-width: 100%; }
 }
 
 
-/***** Testimonials *****/
+/***** productos *****/
 
-.testimonials-container {
+.productos-container {
 	padding-bottom: 70px;
 }
 
-.testimonial-list {
+.producto-list {
     margin-top: 30px;
     text-align: center;
 }
 
-.testimonial-list .testimonial-image img {
+.producto-list .producto-image img {
 	max-width: 220px;
 	border-radius: 4px;
 }
 
-.testimonial-list .testimonial-text {
+.producto-list .producto-text {
 	margin-top: 30px;
 	opacity: 0.8;
 }
 
-.testimonial-list .testimonial-text a {
+.producto-list .producto-text a {
 	color: #fff;
 	border-bottom: 1px dashed #fff;
 }
-.testimonial-list .testimonial-text a:hover, 
-.testimonial-list .testimonial-text a:focus { color: #fff; border: 0; }
+.producto-list .producto-text a:hover, 
+.producto-list .producto-text a:focus { color: #fff; border: 0; }
 
-.testimonial-list .nav-tabs {
+.producto-list .nav-tabs {
 	margin-top: 45px;
     border: 0;
     justify-content: center;
 }
 
-.testimonial-list .nav-tabs li {
+.producto-list .nav-tabs li {
 	margin-left: 10px;
     margin-right: 10px;
 }
 
-.testimonial-list .nav-tabs li a {
+.producto-list .nav-tabs li a {
     width: 16px;
     height: 16px;
     padding: 0;
@@ -512,16 +512,16 @@ img { max-width: 100%; }
     -moz-border-radius: 50%; -webkit-border-radius: 50%; border-radius: 50%;
 }
 
-.testimonial-list .nav-tabs li a:hover,
-.testimonial-list .nav-tabs li a:focus {
+.producto-list .nav-tabs li a:hover,
+.producto-list .nav-tabs li a:focus {
 	background: #fff;
 	background: rgba(255, 255, 255, 0.8);
     border: 1px solid #fff;
     border-color: rgba(255, 255, 255, 0.8);
 }
 
-.testimonial-list .nav-tabs li a.active,
-.testimonial-list .nav-tabs li a.active:focus {
+.producto-list .nav-tabs li a.active,
+.producto-list .nav-tabs li a.active:focus {
 	background: #9b59b6; /* Old browsers */
 	background: -moz-linear-gradient(top,  #ffb24b 0%, #9b59b6 100%); /* FF3.6+ */
 	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffb24b), color-stop(100%,#9b59b6)); /* Chrome,Safari4+ */
