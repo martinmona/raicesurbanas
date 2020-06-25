@@ -12,14 +12,25 @@ strong { font-weight: 600; }
 
 a, a:hover, a:focus { color: #9b59b6; text-decoration: none; transition: all .3s; }
 
-h1, h2 {
+h1 {
 	margin-top: 10px;
 	font-family: 'Montserrat', sans-serif;
 	font-size: 65px;
     font-weight: bold;
     color: #555;
+	line-height: 50px;
+	text-transform: uppercase;
+}
+
+h2{
+	margin-top: 10px;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 40px;
+    font-weight: bold;
+    color: #63983C;
     line-height: 50px;
 }
+
 
 h3 {
 	font-family: 'Montserrat', sans-serif;
