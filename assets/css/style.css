@@ -8,6 +8,10 @@ body {
     text-align: center;
 }
 
+.container {
+    max-width: 1280px;
+}
+
 strong { font-weight: 600; }
 
 a, a:hover, a:focus { color: #9b59b6; text-decoration: none; transition: all .3s; }
@@ -61,8 +65,8 @@ img { max-width: 100%; }
     padding-bottom: 80px;
 }
 
-.section-container-gray-bg {
-	background: #f8f8f8;
+.section-container-lightgreen-bg {
+	background: #F8FFF2;
 }
 
 .section-container-image-bg, 
@@ -628,3 +632,5 @@ footer {
 }
 
 .footer-bottom a:hover, .footer-bottom a:focus { color: #888; }
+
+

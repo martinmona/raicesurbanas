@@ -29,9 +29,9 @@ jQuery(document).ready(function() {
     /*
         Background slideshow
     */
-    $('.top-content').backstretch("assets/img/backgrounds/1.JPG");
+    $('.top-content').backstretch("assets/img/backgrounds/principal-bg.jpg");
     $('.call-to-action-container').backstretch("assets/img/backgrounds/2.jpg");
-    $('.productos-container').backstretch("assets/img/backgrounds/3.JPG");
+    $('.productos-container').backstretch("assets/img/backgrounds/productos-bg.jpg");
     
     $('#top-navbar-1').on('shown.bs.collapse', function(){
     	$('.top-content').backstretch("resize");
