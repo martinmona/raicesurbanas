@@ -28,7 +28,8 @@ h2{
 	font-size: 40px;
     font-weight: bold;
     color: #63983C;
-    line-height: 50px;
+	line-height: 1.5em;
+	text-transform: uppercase;
 }
 
 
@@ -177,7 +178,7 @@ img { max-width: 100%; }
 /***** Top menu *****/
 
 .navbar {
-	background: rgb(95, 163, 81);
+	background: #63983C;
 	-o-transition: all .6s; -moz-transition: all .6s; -webkit-transition: all .6s; -ms-transition: all .6s; transition: all .6s;
 	backface-visibility: hidden;
 	font-weight: bold;
@@ -476,7 +477,7 @@ img { max-width: 100%; }
 
 .producto-list .producto-image img {
 	max-width: 220px;
-	border-radius: 4px;
+	border-radius: 50%;
 }
 
 .producto-list .producto-text {
@@ -522,15 +523,7 @@ img { max-width: 100%; }
 
 .producto-list .nav-tabs li a.active,
 .producto-list .nav-tabs li a.active:focus {
-	background: #9b59b6; /* Old browsers */
-	background: -moz-linear-gradient(top,  #ffb24b 0%, #9b59b6 100%); /* FF3.6+ */
-	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffb24b), color-stop(100%,#9b59b6)); /* Chrome,Safari4+ */
-	background: -webkit-linear-gradient(top,  #ffb24b 0%,#9b59b6 100%); /* Chrome10+,Safari5.1+ */
-	background: -o-linear-gradient(top,  #ffb24b 0%,#9b59b6 100%); /* Opera 11.10+ */
-	background: -ms-linear-gradient(top,  #ffb24b 0%,#9b59b6 100%); /* IE10+ */
-	background: linear-gradient(to bottom,  #ffb24b 0%,#9b59b6 100%); /* W3C */
-	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffb24b', endColorstr='#9b59b6',GradientType=0 ); /* IE6-9 */
-	
+	background: #fff;	
 	border: 0;
 }
 
