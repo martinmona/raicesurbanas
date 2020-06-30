@@ -5,7 +5,8 @@ body {
     font-weight: 300;
     color: #888;
     line-height: 30px;
-    text-align: center;
+	text-align: center;
+	background: #fefff8;
 }
 
 .container {
@@ -66,7 +67,8 @@ img { max-width: 100%; }
 }
 
 .section-container-lightgreen-bg {
-	background: #F8FFF2;
+	background: #bfddb9;
+
 }
 
 .section-container-image-bg, 
@@ -467,7 +469,11 @@ img { max-width: 100%; }
 .portfolio-container .section-bottom-button {
 	padding-top: 40px;
 }
+/*----- Talleres -----*/
 
+.talleres-container{
+	background-color: #bfddb9;
+}
 
 /***** productos *****/
 
@@ -593,6 +599,7 @@ img { max-width: 100%; }
 
 .blog-container .section-bottom-button {
 	padding-top: 40px;
+	background: #53643d;
 }
 /*<- SACAR */
 
