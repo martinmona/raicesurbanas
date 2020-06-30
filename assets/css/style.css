@@ -472,6 +472,7 @@ img { max-width: 100%; }
 
 .productos-container {
 	padding-bottom: 70px;
+	background-image: url(assets/img/backgrounds/fondo-productos.png);
 }
 
 .producto-list {
@@ -480,8 +481,9 @@ img { max-width: 100%; }
 }
 
 .producto-list .producto-image img {
-	max-width: 220px;
+	max-width: 270px;
 	border-radius: 50%;
+	border: 5px solid #fff;
 }
 
 .producto-list .producto-text {
