@@ -1,5 +1,5 @@
 :root{
-    --Principal: #48913c;
+    --Principal: #63983C;
     --Secundario: #916d33;
     --Verde-claro: #b3dda8;
 	--Marron-claro: #ddc8a8;
@@ -496,15 +496,14 @@ box-shadow: 0px 9px 22px -13px rgba(0,0,0,0.75);
 /*----- Talleres -----*/
 
 .talleres-container{
-	background-color: #bfddb9;
+	background-color: var(--Verde-claro);
 }
 
 
 /*--- Slider ---*/
 
-.slider-container {
+.recursos-container {
 	padding-bottom: 70px;
-	background-image: url(assets/img/backgrounds/fondo-productos.png);
 }
 
 .contenedor-slider {
@@ -635,13 +634,19 @@ box-shadow: 0px 9px 22px -13px rgba(0,0,0,0.75);
 	border: 0;
 }
 
+.btn-success{
+	color: #fff;
+    background-color: var(--Principal);
+	border-color: var(--Principal);	
+}
+
 
 /*-----   voluntaixs -----*/
 
 .btn-sumate{
 	color: #fff;
-    background-color: #28a745;
-	border-color: #28a745;
+    background-color: var(--Principal);
+	border-color: var(--Principal);
 	text-align: left;
 	
 }
