@@ -69,6 +69,19 @@
 @media (max-width: 415px) {
 	
 	h1, h2 { font-size: 32px; }
+	.hovereffect h2 {
+		padding: 1px;
+		-webkit-transform: translateY(235px);
+		-ms-transform: translateY(235px);
+		transform: translateY(235px);
+
+	  }
+	  .nav-item{
+		  border-bottom: 1px solid #42c6623;
+	  }
+	  .nav-item:last-child{
+		  border-bottom: none;
+	  }
 
 }
 
@@ -85,7 +98,8 @@ only screen and (                min-resolution: 2dppx) {
 	
 	/* logo */
     .navbar-brand {
-    	background-image: url(../img/logo@2x.png) !important; background-repeat: no-repeat !important; background-size: 136px 39px !important;
+		background-image: url(../img/logo@2x.png) !important; background-repeat: no-repeat !important; 
+		background-size: 136px 39px !important;
     }
 	
 }
