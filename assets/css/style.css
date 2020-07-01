@@ -1,12 +1,23 @@
+:root{
+    --Principal: #48913c;
+    --Secundario: #916d33;
+    --Verde-claro: #b3dda8;
+	--Marron-claro: #ddc8a8;
+	--Verde-oscuro: #2c6623;
+	--Marron-oscuro: #7c5e33;
+	--Bg-claro: #fefff8;
+	--Bg-verde: #bfddb9;
+	--Bg-marron: #dbd3c8;
+}
 
 body {
     font-family: 'Open Sans', sans-serif;
     font-size: 16px;
     font-weight: 300;
-    color: #888;
+    color: var(--Verde-oscuro);
     line-height: 30px;
 	text-align: center;
-	background: #fefff8;
+	background: var(--Bg-claro);
 }
 
 .container {
@@ -55,8 +66,8 @@ img { max-width: 100%; }
 
 .colored-text { color: #9b59b6; }
 
-::-moz-selection { background: #9b59b6; color: #fff; text-shadow: none; }
-::selection { background: #9b59b6; color: #fff; text-shadow: none; }
+::-moz-selection { background: var(--Verde-claro); color: var(--Bg-claro); text-shadow: none; }
+::selection { background: var(--Verde-claro); color: var(--Bg-claro); text-shadow: none; }
 
 
 /***** General style, all sections *****/
@@ -67,7 +78,7 @@ img { max-width: 100%; }
 }
 
 .section-container-lightgreen-bg {
-	background: #bfddb9;
+	background: var(--Verde-claro);
 
 }
 
@@ -97,7 +108,7 @@ img { max-width: 100%; }
 .section-bottom-button {
 	padding-top: 60px;
 }
-
+/*
 .btn-link-1 {
 	display: inline-block;
 	height: 50px;
@@ -169,7 +180,7 @@ img { max-width: 100%; }
 	outline: 0;
 	color: #9b59b6;
 	box-shadow: none;
-}
+}*/
 
 
 /***** Divider *****/
@@ -192,14 +203,14 @@ img { max-width: 100%; }
 .navbar.navbar-no-bg { 
 	background: rgba(82,135,43,0.8);
 }
-
+/*
 .navbar-dark .navbar-nav { font-size: 15px;; color: #fff; font-weight: 600; }
 .navbar-dark .navbar-nav .nav-link { color: #fff; color: rgba(255, 255, 255, 0.8); border: 0; }
 .navbar-dark .navbar-nav .nav-link:hover { color: #fff; }
 .navbar-dark .navbar-nav .nav-link:focus { color: #fff; outline: 0; }
 
 .navbar-expand-md .navbar-nav .nav-link { padding-left: 1rem; padding-right: 1rem; }
-
+*/
 .navbar-brand {
 	width: 200px;
 	height: 65px;
@@ -217,7 +228,7 @@ img { max-width: 100%; }
 }
 
 .top-content .text {
-	color: #fff;
+	color: var(--Bg-claro);
 	
 }
 
@@ -357,7 +368,7 @@ box-shadow: 0px 9px 22px -13px rgba(0,0,0,0.75);
 	transition: all 0.4s ease-in-out;
   }
   .hovereffect:hover h2 {
-	  color: #fff;
+	  color: var(--Bg-claro);
 	-webkit-transform: translateY(0px);
 	-ms-transform: translateY(0px);
 	transform: translateY(0px);
