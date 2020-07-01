@@ -284,15 +284,23 @@ img { max-width: 100%; }
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffb24b', endColorstr='#9b59b6',GradientType=0 ); /* IE6-9 */
 }
 
-.texto-talleres{
-	text-align: justify
-}
 
 .services-box h3 {
 	margin-top: 0;
 	padding: 0 0 10px 0;
 }
 /*<-SACAR*/
+
+/*--- Talleres ---*/
+
+
+.talleres-container{
+	background-color: var(--Bg-verde);
+}
+
+.texto-talleres{
+	text-align: justify
+}
 
 .hovereffect {
 	width: 100%;
@@ -304,7 +312,7 @@ img { max-width: 100%; }
 	position: relative;
 	text-align: center;
 	cursor: default;
-	background: #fefff8;
+	background: var(--Bg-claro);
 	display: flex;
 	justify-content: center;
 	-webkit-box-shadow: 0px 9px 22px -13px rgba(0,0,0,0.75);
@@ -493,11 +501,7 @@ box-shadow: 0px 9px 22px -13px rgba(0,0,0,0.75);
 .portfolio-container .section-bottom-button {
 	padding-top: 40px;
 }
-/*----- Talleres -----*/
 
-.talleres-container{
-	background-color: var(--Verde-claro);
-}
 
 
 /*--- Slider ---*/
