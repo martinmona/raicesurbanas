@@ -632,8 +632,8 @@ img { max-width: 100%; }
 
 .btn-success{
 	color: #fff;
-    background-color: var(--Principal);
-	border-color: var(--Principal);	
+    background-color: var(--Marron-oscuro);
+	border-color: var(--Marron-oscuro);	
 }
 
 
