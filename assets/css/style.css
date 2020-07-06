@@ -644,7 +644,13 @@ img { max-width: 100%; }
     background-color: var(--Principal);
 	border-color: var(--Principal);
 	text-align: left;
-	
+}
+
+.btn-sumate:hover{
+	color: #fff;
+    background-color: var(--Verde-oscuro);
+	border-color: var(--Verde-claro);
+	text-align: left;
 }
 
 /***** Blog *****/
@@ -716,6 +722,10 @@ img { max-width: 100%; }
 
 /*Section Contacto*/
 
+.contacto{
+	padding-top: 60px;
+}
+
 .contenedor-contacto{
 	width: 100%;
 	display: flex;
@@ -762,6 +772,7 @@ img { max-width: 100%; }
 }
 
 .data{
+	padding-top: 15px;;
 	text-align: left;
 }
   
