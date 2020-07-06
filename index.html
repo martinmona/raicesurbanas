@@ -537,9 +537,9 @@
         <h2>Contacto</h2>
 
         <div class="contenedor-contacto wow fadeInLeft">
-          <form action="formulario.php" method="post">
-            <input type="text" placeholder="Nombre">
-            <input type="email" placeholder="Mail">
+          <form id="contactForm" name="sentMessage" novalidate="novalidate">
+            <input id="name" type="text" placeholder="Nombre">
+            <input id="email" type="email" placeholder="Mail">
             <datalist id="opcion">
               <option value="Ser voluntario">
               <option value="Comprar plantines">
@@ -548,8 +548,8 @@
               <option value="Otro motivo">
             </datalist>
             <input list="opcion" placeholder="Quiero...">
-            <textarea name="" id="" cols="30" rows="10" placeholder="Mensaje"></textarea>
-            <input type="submit">
+            <textarea id="message" name="" id="" cols="30" rows="10" placeholder="Mensaje"></textarea>
+            <button id="sendMessageButton" class="btn btn-primary btn-xl text-uppercase" type="submit">Enviar</button>
             <div class="data">
               <p><strong>Dirección: </strong>Tte. Gral. Perón 3638, Almagro, CABA</p>
               <p><strong>Email:</strong>info@raicesurbanas.com.ar</p>
