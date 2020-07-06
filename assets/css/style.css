@@ -224,7 +224,7 @@ img { max-width: 100%; }
 /***** Top content *****/
 
 .top-content {
-    padding: 210px 0;
+	padding: 210px 0;
 }
 
 .top-content .text {
@@ -291,9 +291,6 @@ img { max-width: 100%; }
 	background-color: var(--Bg-verde);
 }
 
-.texto-talleres{
-	text-align: justify
-}
 
 .hovereffect {
 	width: 100%;
@@ -338,8 +335,8 @@ img { max-width: 100%; }
 	width: 80%;
 	-webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
 	transition: opacity 0.35s, transform 0.35s;
-	-webkit-transform: translate3d(-10px,0,0);
-	transform: translate3d(-10px,0,0);
+	/*-webkit-transform: translate3d(-10px,0,0);
+	transform: translate3d(-10px,0,0);*/
 	-webkit-backface-visibility: hidden;
 	backface-visibility: hidden;
   }
@@ -392,6 +389,10 @@ img { max-width: 100%; }
 	transform: translate3d(0,0,0);
   }*/
   
+  .hovereffect p {
+	padding: 0 10%;
+	text-align: center;
+  }
   .hovereffect a, .hovereffect p {
 	color:#fff;
 	opacity: 1;
