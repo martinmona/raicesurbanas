@@ -529,11 +529,39 @@
       </div> -->
 
     </div>
-  </div>     
+  </div>   
 
+  <div class="blog-container section-container section-container-lightgreen-bg">
+    <div class="container">
+      <section id="contacto">
+        <h2>Contacto</h2>
 
+        <div class="contenedor-contacto wow fadeInLeft">
+          <form action="formulario.php" method="post">
+            <input type="text" placeholder="Nombre">
+            <input type="email" placeholder="Mail">
+            <datalist id="opcion">
+              <option value="Ser voluntario">
+              <option value="Comprar plantines">
+              <option value="Conocer la huerta">
+              <option value="Inscribirme a un taller">
+              <option value="Otro motivo">
+            </datalist>
+            <input list="opcion" placeholder="Quiero...">
+            <textarea name="" id="" cols="30" rows="10" placeholder="Mensaje"></textarea>
+            <input type="submit">
+            <div class="data">
+              <p><strong>Dirección: </strong>Tte. Gral. Perón 3638, Almagro, CABA</p>
+              <p><strong>Email:</strong>info@raicesurbanas.com.ar</p>
+            </div>
+          </form>
+          <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13135.564851246776!2d-58.417872!3d-34.6069123!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xa05a81686d04fcfc!2sRaices%20Urbanas!5e0!3m2!1ses-419!2sar!4v1590091882779!5m2!1ses-419!2sar" allowfullscreen=""></iframe>
+        </div>
+      </section>
+    </div>
+  </div>
   
-  <!-- Blog -->
+  <!-- Blog 
   <div class="blog-container section-container section-container-lightgreen-bg">
     <div class="container">
       <div class="row">
@@ -547,42 +575,32 @@
         <div class="col-md-6 blog-box wow fadeInLeft">
           <div class="row">
             <div class="col-md-9">
-
+             
+              <div class="contenedor-contacto">
+                <form >
+                  <input type="text" id="nombre" placeholder="Nombre"  aria-describedby="emailHelp">
+                  <input type="email" id="email" placeholder="Mail"  aria-describedby="emailHelp">
+                  <datalist id="opcion">
+                    <option value="Ser voluntario">
+                    <option value="Comprar plantines">
+                    <option value="Conocer la huerta">
+                    <option value="Inscribirme a un taller">
+                    <option value="Otro motivo">
+				          </datalist>
+                  <textarea class="form-control" id="exampleFormControlTextarea1" cols="30" rows="20" placeholder="Mensaje" ></textarea>
+                  <div class="form-check">
+                    <input type="checkbox">
+                    <label class="form-check-label" for="exampleCheck1">Deseo recibir el newslatter con información</label>
+                  </div>
+                  <button type="submit" class="btn btn-success">Enviar</button>
+                </form>
+              </div>   
               <div class="row">
-                <span>
-                  <strong>Dirección</strong> </br> Tte. Gral. Perón 3638, Almagro, CABA
-                </span>
-                <span>
-                  <strong>Email</strong> </br> info@raicesurbanas.com.ar
-                </span>
+                <p><strong>Dirección: </strong></p>
+                <p>Tte. Gral. Perón 3638, Almagro, CABA</p>
+                <p><strong>Email</strong></p>
+                <p>info@raicesurbanas.com.ar</p>
               </div>
-
-              
-
-              <!-- <form>
-                <div class="form-group">
-                  <label for="Nombre">Nombre</label>
-                  <input type="text" class="form-control" id="nombre" aria-describedby="emailHelp">
-                </div>
-                <div class="form-group">
-                  <label for="email">Email</label>
-                  <input type="email" class="form-control" id="email" aria-describedby="emailHelp"
-                    placeholder="ejemplo@mail.com">
-                  <small id="emailHelp" class="form-text text-muted">No compartiremos tu información con nadie
-                    más.</small>
-                </div>
-                <div class="form-group">
-                  <label for="exampleFormControlTextarea1">Escribinos tu consulta o comentario acá</label>
-                  <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-                </div>
-                <div class="form-check">
-                  <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                  <label class="form-check-label" for="exampleCheck1">Deseo recibir información sobre los proximos
-                    talleres y actividades</label>
-                </div>
-                </br>
-                <button type="submit" class="btn btn-success">Enviar</button>
-              </form> -->
             </div>
           </div>
         </div>
@@ -591,14 +609,14 @@
             <div class="col-md-12 blog-box wow fadeInRight">
               <div class="row">
                 <div class="col-md-12">
-                  <!--Google map-->
+                  <Google map>
                   <div id="map-container-google-1" class="z-depth-1-half map-container" style="height: 500px">
                     <iframe
                       src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3283.8912135845344!2d-58.42006068426358!3d-34.60691228045866!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcca601bd6d00d%3A0xa05a81686d04fcfc!2sRaices+Urbanas!5e0!3m2!1ses-419!2sar!4v1552068631105"
                       width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
                   </div>
 
-                  <!--Google Maps-->
+                  <Google Maps
                 </div>
               </div>
             </div>
@@ -608,7 +626,7 @@
 
 
     </div>
-  </div>
+  </div>-->
 
 
   <!-- Talleres Modals -->
