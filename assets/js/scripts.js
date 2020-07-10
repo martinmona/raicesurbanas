@@ -29,7 +29,7 @@ jQuery(document).ready(function() {
     /*
         Background slideshow
     */
-    $('.top-content').backstretch("assets/img/backgrounds/principal-bg.jpg");
+   /* $('.top-content').backstretch("assets/img/backgrounds/principal-bg.jpg");*/
     $('.call-to-action-container').backstretch("assets/img/backgrounds/2.jpg");
     $('.productos-container').backstretch("assets/img/backgrounds/productos-bg.jpg");
     

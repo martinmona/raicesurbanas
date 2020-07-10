@@ -224,11 +224,15 @@ img { max-width: 100%; }
 /***** Top content *****/
 
 .top-content {
+	background-image: url(../img/backgrounds/principal-bg2.jpg);
+	background-blend-mode: lighten;
+	background-size: cover;
 	padding: 210px 0;
 }
 
 .top-content .text {
 	color: var(--Bg-claro);
+	text-shadow: 2px 2px 5px #000;
 	
 }
 
@@ -238,6 +242,7 @@ img { max-width: 100%; }
 	font-weight: bold;
 	line-height: 1em;
 	color: #fff;
+	
 }
 
 .top-content .description {
