@@ -505,7 +505,7 @@ img { max-width: 100%; }
 
 .contenedor-slider {
 	margin: 40px auto;
-	width: 90%;
+	width: 100%;
 	max-width: 1000px;
 	position: relative;
 	overflow: hidden;
