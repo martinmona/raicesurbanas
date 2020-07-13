@@ -232,7 +232,7 @@ img { max-width: 100%; }
 
 .top-content .text {
 	color: var(--Bg-claro);
-	text-shadow: 2px 2px 5px #000;
+	text-shadow: 2px 2px 6px #000;
 	
 }
 
@@ -648,14 +648,14 @@ img { max-width: 100%; }
 	color: #fff;
     background-color: var(--Principal);
 	border-color: var(--Principal);
-	text-align: left;
+	text-align: center;
 }
 
 .btn-sumate:hover{
 	color: #fff;
     background-color: var(--Verde-oscuro);
 	border-color: var(--Verde-claro);
-	text-align: left;
+	text-align: center;
 }
 
 /***** Blog *****/
@@ -765,20 +765,21 @@ img { max-width: 100%; }
 	height: 115px;
   }
   
-
-.btn-primary{
-	background: #63983C;
-	border: 1px solid #63983C;
-}
-
-.btn-primary:hover {
-	background: var(--Verde-oscuro);
-	border: 1px solid #63983C;	
-}
-
 .data{
 	padding-top: 15px;;
 	text-align: left;
+}
+
+.info{
+	display: flex;
+	justify-content: start;
+	align-items: center;
+}
+
+.info i, p{
+	padding-top: 8px;
+	padding-left: 10px;
+	margin-bottom: 0px;
 }
   
   iframe {
