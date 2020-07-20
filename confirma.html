@@ -10,22 +10,33 @@
         width: 100%;
     }
 
-a{
-    background: var(--Principal);
-    padding: 10px 20px;
-    border-radius: 5px;
-	color: #fff;
-	text-align: center;
-}
+    a{
+        background: var(--Principal);
+        padding: 10px 20px;
+        border-radius: 5px;
+        color: #fff;
+        text-align: center;
+    }
+    a:hover{
+        color:#fff;
+    }
+    .container{
+        margin: 0 auto;
+        padding: 3em;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
 
-.btn-regresar:hover{
-	background: var(--Verde-oscuro);
-}
+    .btn-regresar:hover{
+        background: var(--Verde-oscuro);
+    }
 </style>
 
 <body>
-    <div class="regresar"><a href="index.html">Regresar</a></div>
-    
-Gracias por comunicarse, su mensaje fue enviado correctamente
+    <div class="container">
+        <div class="regresar"><a href="index.html">Regresar</a></div>
+        <p>Gracias por comunicarse, su mensaje fue enviado correctamente</p>
+    </div>
 </body>
 </html>
