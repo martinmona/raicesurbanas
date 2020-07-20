@@ -764,6 +764,10 @@ img { max-width: 100%; }
 	width: 100%;
 	height: 115px;
   }
+
+  .form-group {
+    margin-bottom: 0.5rem;
+}
   
 .data{
 	padding-top: 15px;;
@@ -826,6 +830,7 @@ footer {
 }
 
 .footer-bottom a:hover, .footer-bottom a:focus { color: #888; }
+
 
 
 /* Móviles en horizontal o tablets en vertical
