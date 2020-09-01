@@ -26,17 +26,25 @@
         display: flex;
         flex-direction: column;
         justify-content: space-around;
+        width: 90%;
     }
 
     .btn-regresar:hover{
         background: var(--Verde-oscuro);
     }
+
+    @media (min-width: 767px) {
+	.container{
+		width: 70%;
+      }
+    }
+
 </style>
 
 <body>
     <div class="container">
         <div class="regresar"><a href="index.html">Regresar</a></div>
-        <p>Gracias por comunicarse, su mensaje fue enviado correctamente</p>
+        <p>¡Muchas gracias por comunicarte con nosotrxs! A la brevedad estaremos respondiendo tu mensaje, mientras tanto te invitamos a visitar nuestras redes para contarte nuestras últimas novedades.</p>
     </div>
 </body>
 </html>
