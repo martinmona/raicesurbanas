@@ -29,9 +29,9 @@ jQuery(document).ready(function() {
     /*
         Background slideshow
     */
-    $('.top-content').backstretch("assets/img/backgrounds/1.JPG");
+   /* $('.top-content').backstretch("assets/img/backgrounds/principal-bg.jpg");*/
     $('.call-to-action-container').backstretch("assets/img/backgrounds/2.jpg");
-    $('.testimonials-container').backstretch("assets/img/backgrounds/3.JPG");
+    $('.productos-container').backstretch("assets/img/backgrounds/productos-bg.jpg");
     
     $('#top-navbar-1').on('shown.bs.collapse', function(){
     	$('.top-content').backstretch("resize");
@@ -41,7 +41,7 @@ jQuery(document).ready(function() {
     });
     
     $('a[data-toggle="tab"]').on('shown.bs.tab', function(){
-    	$('.testimonials-container').backstretch("resize");
+    	$('.productos-container').backstretch("resize");
     });
     
     /*
@@ -57,7 +57,57 @@ jQuery(window).load(function() {
 	/*
 		Hidden images
 	*/
-	$(".testimonial-image img").attr("style", "width: auto !important; height: auto !important;");
+	$(".producto-image img").attr("style", "width: auto !important; height: auto !important;");
 	
 });
+
+
+//almacenar slider en una variable
+var slider = $('#slider');
+//almacenar botones
+var siguiente = $('#btn-next');
+var anterior = $('#btn-prev');
+
+//mover ultima imagen al primer lugar
+$('#slider .slider__section:last').insertBefore('#slider .slider__section:first');
+//mostrar la primera imagen con un margen de -100%
+slider.css('margin-left', '-'+100+'%');
+
+function moverD() {
+	slider.animate({
+		marginLeft:'-'+200+'%'
+	} ,700, function(){
+		$('#slider .slider__section:first').insertAfter('#slider .slider__section:last');
+		slider.css('margin-left', '-'+100+'%');
+	});
+}
+
+function moverI() {
+	slider.animate({
+		marginLeft:0
+	} ,700, function(){
+		$('#slider .slider__section:last').insertBefore('#slider .slider__section:first');
+		slider.css('margin-left', '-'+100+'%');
+	});
+}
+
+function autoplay() {
+	interval = setInterval(function(){
+		moverD();
+	}, 5000);
+}
+siguiente.on('click',function() {
+	moverD();
+	clearInterval(interval);
+	autoplay();
+});
+
+anterior.on('click',function() {
+	moverI();
+	clearInterval(interval);
+	autoplay();
+});
+
+
+autoplay();
 

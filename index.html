@@ -6,7 +6,22 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
 
-  <title>Raices Urbanas</title>
+  <title>Raíces Urbanas</title>
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-177058050-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-177058050-1');
+</script>
+
+  
+  <!-- Validacion formulario-->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jqBootstrapValidation/1.3.6/jqBootstrapValidation.js"></script>
+
 
   <!-- CSS -->
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,600" />
@@ -30,7 +45,7 @@
   <!-- Top menu -->
   <nav class="navbar navbar-dark fixed-top navbar-expand-md navbar-no-bg">
     <div class="container">
-      <a class="navbar-brand" href="index.html">Raíces Urbanas</a>
+      <a class="navbar-brand" href="index.html">Raíces</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
         aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -44,19 +59,24 @@
           <li class="nav-item">
             <a class="nav-link scroll-link" href="#talleres">Talleres</a>
           </li>
-
           <li class="nav-item">
-            <a class="nav-link scroll-link" href="#pilares">Pilares</a>
+            <a class="nav-link scroll-link" href="#recursos">Recursos</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link scroll-link" href="#blog">Contacto</a>
+            <a class="nav-link scroll-link" href="#productos">Productos</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link scroll-link" href="https://www.facebook.com/RUrbanas" target="_blank"><i
+            <a class="nav-link scroll-link" href="#voluntarios">Voluntarixs</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link scroll-link" href="#contacto">Contacto</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="https://www.facebook.com/RUrbanas" target="_blank"><i
                 class="fab fa-facebook-f"></i></a>
           </li>
           <li class="nav-item">
-            <a class="nav-link scroll-link" href="https://www.instagram.com/raices.urbanas" target="_blank"><i
+            <a class="nav-link" href="https://www.instagram.com/raices.urbanas" target="_blank"><i
                 class="fab fa-instagram"></i></a>
           </li>
         </ul>
@@ -69,101 +89,81 @@
     <div class="container">
       <div class="row">
         <div class="col-md-8 offset-md-2 text">
-          <h1 class="wow fadeInLeftBig">Raíces Urbanas</h1>
+          <h1 class="wow fadeInLeftBig">Un oasís en la ciudad</h1>
           <div style="font-size: 20px" class="description wow fadeInLeftBig">
             <p>
-              Educación Ambiental
+              En medio del cemento y el ruido, nuestra huerta urbana surge como un oasis donde poder percibir la globalidad de la naturaleza, en la que todo está vinculado y forma parte de un sistema mayor. ¡Veni a conocernos!
             </p>
           </div>
         </div>
       </div>
     </div>
   </div>
+
   <!-- About us -->
-  <div class="about-us-container section-container section-container-gray-bg">
+  <div class="about-us-container section-container">
     <div class="container">
       <div class="row">
-        <div class="col-12 col-lg-7 about-us-box wow fadeInLeft">
-          <div class="about-us-box-text">
-            <h3 style="font-weight:bold">Nuestras Raíces</h3>
+        <div class="col-lg-12 about-us-box wow fadeInUp">
+          <div class="">
+            <h2>Nuestras Raíces</h2>
+ 
             <p class="medium-paragraph">
-              Si miramos a nuestro alrededor veremos cemento, edificios,
-              vehículos y polución, producto de una ciudad que crece cada día
-              más. Pero en una terraza de Almagro surge un nuevo paradigma,
-              donde se sienten los aires de cambio de sólo transitar entre los
-              canteros y plantas, que se fortalecen dentro de un ecosistema
-              diferente, generado por la <b>biodiversidad </b> del lugar.
+              Raíces Urbanas es una organización integrada por personas unidas por la misma motivación: la recuperación y conservación del ambiente, la preservación de los recursos naturales y el desarrollo sustentable. En nuestro espacio, una huerta urbana agroecológica y comunitaria localizada en una terraza del barrio de Almagro, utilizamos a la huerta urbana como un instrumento de educación ambiental para la sensibilización y concientización de la población en problemáticas socioambientales.
             </p>
-            <p>
-              Nosotros somos un equipo interdisciplinario, conformado por
-              estudiantes, graduadxs y voluntarixs, de todas las edades y
-              carreras diversas. Nos une un mismo fin, nuestro motor es
-              generar <b>conciencia ambiental</b>. Promover la
-              <b>agroecología </b> como alternativa de producción hacia un
-              mundo más <b>sustentable</b>, donde reciclar y reutilizar sea
-              algo común, donde cada uno sepa de donde proviene lo que consume
-              y hacia donde van nuestros desechos.
+            <div class="row">
+              <div class="col-lg-4 pilar fadeInUp">
+                <img src="assets/img/about/icon-01.png" alt="">
+                <h3>Agroecología</h3>
+                <p>
+                  ¿Quién dijo que en las ciudades no se pueden producir alimentos de forma sana, segura y soberana? Retomamos los saberes ancestrales para pensar en una agricultura respetuosa con el ambiente que fomente la biodiversidad, conserve el agua y mejore la fertilidad del suelo y la salud de las plantas. La agroecología nos invita a cuestionar nuestros hábitos y la forma en la que nos vinculamos con el ambiente.
+                </p>
+              </div>
+              <div class="col-lg-4 pilar fadeInUp">
+                <img src="assets/img/about/icon-02.png" alt="">
+                <h3>Desarrollo Sustentable</h3>
+                <p>Comprar-Usar-Tirar: Un desarrollo basado en una economía lineal que utiliza los recursos de forma infinita en un planeta finito. El concepto de “basura” no existe en la naturaleza, allí todo se transforma para ser nuevamente parte del sistema. En nuestra huerta intentamos imitarla transformando los residuos en recursos para la construcción de los insumos necesarios para el cultivo de nuestras plantas. ¿Ya viste nuestras fotos?</p>
+              </div>
+              <div class="col-lg-4 pilar fadeInUp">
+                <img src="assets/img/about/icon-03.png" alt="">
+                <h3>Educación Ambiental</h3>       
+                <p>Las huertas urbanas poseen un gran potencial como herramienta de educación ambiental desde donde abordar diversos conceptos como la biodiversidad, la gestión de residuos y la soberanía alimentaria. A su vez, tienen el poder de reconectarnos con el entorno que nos rodea, comprender sus ciclos y procesos. Creemos que esto es vital para la construcción de una ciudadanía comprometida con la sociedad y su ambiente. </p>
+              </div>
+            </div>
+            <p style="font-weight: bold;">
+              Sembremos nuestras semillas, ¡que crezcan nuestras raíces!
             </p>
-            <p>
-              Utilizando nuestra huerta como herramienta para la práctica
-              educativa, y de la cual estamos muy orgullosos de poder
-              compartir, damos talleres, seminarios, charlas y cursos para que
-              cada uno pueda iniciar y/o continuar la suya en su propio
-              espacio, tanto para chicxs como adultos.
-            </p>
-            <p style="font-weight: bold;font-style: italic">
-              Sembremos nuestras semillas, ¡Que crezcan nuestras Raices!
-            </p>
-          </div>
-        </div>
-        <div class="col-12 col-lg-5 about-us-box wow fadeInUp">
-          <div class="about-us-box-img">
-            <img src="assets/img/about/1.jpg" alt="about" data-at2x="assets/img/about/1.jpg" />
           </div>
         </div>
       </div>
     </div>
   </div>
-  <!--#region Talleres -->
+
+
+
+
+  <!--- Talleres -->
+  
   <div class="talleres-container section-container">
     <div class="container">
       <div class="row">
         <div class="col services section-description wow fadeIn">
           <h2>Talleres</h2>
-          <div class="divider-1 wow fadeInUp"><span></span></div>
+          <p>Nuestros talleres tienen una modalidad teórico-práctica. Creemos que la mejor forma de aprender es haciendo, por lo que independientemente de la temática aprovechamos nuestra huerta a modo de experimentación y como espacio donde aplicar los conceptos aprendidos.</p>
         </div>
       </div>
+
       <div class="row">
-        <div class="col-md-4 services-box wow fadeInUp">
+
+        <div class="col-lg-4 col-md-6 col-sm-12 services-box wow fadeInUp">
           <div class="row" data-toggle="modal" data-target="#tallerModal1">
             <div class="col-md-12">
               <div class="hovereffect">
-                <img class="img-responsive" src="assets/img/Talleres/introhuerta.jpg" alt="" />
+                <img class="img-responsive" src="assets/img/talleres/introhuerta.jpg" alt="" />
                 <div class="overlay">
                   <div style="cursor: pointer">
-                    <h2>Introducción a la Huerta Urbana</h2>
-                    <p>
-                      Acá vas a poder aprender lo necesario para empezar tu propia huerta, adaptandola al espacio disponible y tus gustos.
-                    </p>
-                  </div>
-
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-4 services-box wow fadeInDown">
-          <div class="row" data-toggle="modal" data-target="#tallerModal2">
-            <div class="col-md-12">
-              <div class="hovereffect">
-                <img class="img-responsive" src="assets/img/Talleres/semillas.jpg" alt="" />
-                <div class="overlay">
-                  <div style="cursor: pointer">
-                    <h2>Brotes de Cambio</h2>
-                    <p>
-                      Nuestro taller pensado especialmente para escuelas primarias,
-                      donde los alumnos podrán repensar el lugar de la naturaleza en las ciudades
-                      mientras recorren nuestra huerta.
+                    <h2>Intro a la Huerta</h2>
+                    <p>¿Querés iniciar tu huerta y no sabés por dónde empezar? ¿Ya tenés algunas plantas y querés saber cómo mejorar su rendimiento? Mediante clases teórico-prácticas te contamos todo lo que tenés que saber para iniciar una huerta en tu patio, terraza, balcón o jardín. Dónde, cómo y qué sembrar según el espacio que tengas y los materiales con los que cuentes. ¡Lo único que necesitas es creatividad!  
                     </p>
                   </div>
                 </div>
@@ -171,72 +171,66 @@
             </div>
           </div>
         </div>
-        <div class="col-md-4 services-box wow fadeInUp">
+        
+        <div class="col-lg-4 col-md-6 col-sm-12 services-box wow fadeInUp">
           <div class="row" data-toggle="modal" data-target="#tallerModal3">
             <div class="col-md-12">
               <div class="hovereffect">
-                <img class="img-responsive" src="assets/img/Talleres/compost.jpg" alt="" />
+                <img class="img-responsive" src="assets/img/talleres/compost.jpg" alt="" />
                 <div class="overlay">
                   <div style="cursor: pointer">
-                    <h2>Compost y Lumbricario</h2>
-                    <p>
-                      Si tenes ganas de reducir tus residuos y empezar a generar tu propia tierra, con este taller
-                      sabrás qué, cómo y cuándo compostar.
-                    </p>
+                    <h2>Compost Domiciliario</h2>
+                    <p>El 50% de nuestros residuos corresponden a materiales orgánicos, con el compostaje domiciliario no solo ayudas a reducir tus desechos sino que además obtenés abono fértil para tus plantas, garantizando todos los requerimientos nutricionales necesarios para su crecimiento y desarrollo. En este taller te enseñamos cómo y dónde hacerlo para no fallar en el intento.</p>
                   </div>
                 </div>
               </div>
             </div>
           </div>
         </div>
-      </div>
-      <div class="row">
-        <div class="col-md-4 services-box wow fadeInUp">
+
+        <div class="col-lg-4 col-md-6 col-sm-12 services-box wow fadeInUp">
           <div class="row" data-toggle="modal" data-target="#tallerModal4">
             <div class="col-md-12">
               <div class="hovereffect">
-                <img class="img-responsive" src="assets/img/Talleres/medicinales.jpg" alt="" />
+                <img class="img-responsive" src="assets/img/talleres/medicinales.jpg" alt="" />
                 <div class="overlay">
                   <div style="cursor: pointer">
                     <h2>Plantas Medicinales</h2>
-                    <p>
-                      Existen diversas plantas con propiedades medicinales, tanto para prevenir como para curar.
-                      Charlaremos sobre ellas, cómo tenerlas en nuestra huerta y de que forma utilizarlas.
-                    </p>
+                    <p>Las plantas medicinales son aquellas que poseen principios activos que pueden utilizarse para el tratamiento o prevención de diversas enfermedades, el conocerlas nos otorga mayor protagonismo a la hora de pensar nuestra salud. En la huerta encontramos muchas de ellas, te contamos cuáles son y cómo se usan. ¡Plantá el remedio!</p>
                   </div>
                 </div>
               </div>
             </div>
           </div>
         </div>
-        <div class="col-md-4 services-box wow fadeInDown">
+
+
+
+        <div class="col-lg-4 col-md-6 col-sm-12 services-box wow fadeInDown">
           <div class="row" data-toggle="modal" data-target="#tallerModal5">
             <div class="col-md-12">
               <div class="hovereffect">
-                <img class="img-responsive" src="assets/img/Talleres/vertical.jpg" alt="" />
+                <img class="img-responsive" src="assets/img/talleres/plagas.jpg" alt="" />
                 <div class="overlay">
                   <div style="cursor: pointer">
-                    <h2>Huertas y Jardines Verticales</h2>
-                    <p>
-                        Introducción al diseño y armado de huertas y jardines sobre muros o paredes, 
-                        maximizando el uso del espacio a la hora de diseñar nuestra huerta.
-                    </p>
+                    <h2>Control de plagas</h2>
+                    <p>El control ecológico de una plaga no intenta eliminarla, sino bajar sus niveles de población por debajo del daño, ya que la presencia de diversidad de insectos y animales forma parte del equilibrio de un agrosistema. En este taller aprenderemos a observar a la naturaleza de modo de actuar imitando y respetando sus procesos.</p>
                   </div>
                 </div>
               </div>
             </div>
           </div>
         </div>
-        <div class="col-md-4 services-box wow fadeInUp">
+
+        <div class="col-lg-4 col-md-6 col-sm-12 services-box wow fadeInUp">
           <div class="row" data-toggle="modal" data-target="#tallerModal6">
             <div class="col-md-12">
               <div class="hovereffect">
-                <img class="img-responsive" src="assets/img/Talleres/hidro.jpg" alt="" />
+                <img class="img-responsive" src="assets/img/talleres/hidroponia.jpg" alt="" />
                 <div class="overlay">
                   <div style="cursor: pointer">
                     <h2>Hidroponia</h2>
-                    <p>
-                      El arte de cultivar utilizando agua en vez de tierra, conoceremos de los beneficios y cuidados necesarios.
+                    <p>La hidroponía es una forma de cultivo que no utiliza suelo como sustrato sino materiales inertes y/o agua potable con agregado de nutrientes. En este taller vemos los conceptos básicos para iniciar un cultivo hidropónico casero mediante la reutilización de materiales de desecho.
                     </p>
                   </div>
                 </div>
@@ -244,237 +238,139 @@
             </div>
           </div>
         </div>
+
+        <div class="col-lg-4 col-md-6 col-sm-12 services-box wow fadeInDown">
+          <div class="row" data-toggle="modal" data-target="#tallerModal2">
+            <div class="col-md-12">
+              <div class="hovereffect">
+                <img class="img-responsive" src="assets/img/talleres/semillas.jpg" alt="" />
+                <div class="overlay">
+                  <div style="cursor: pointer">
+                    <h2>Brotes de Cambio</h2>
+                    <p>¿Hay naturaleza en la ciudad? ¿Cómo nos vinculamos con ella? A partir de un recorrido sensorial por la huerta, una obra de títeres y muchas sorpresas más iremos respondiendo éstas y otras preguntas mientras reflexionamos sobre la importancia de la biodiversidad, el origen de nuestros alimentos, la reutilización de residuos y el cuidado del ambiente.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
       </div>
+
     </div>
   </div>
-  <!-- #endregion -->
 
-  <!-- #endregion -->
-  <!--#region novedades -->
-  <!-- <div class="portfolio-container section-container">
+
+
+<!-- Recursos  -->
+
+    <div class="recursos-container section-container">
       <div class="container">
         <div class="row">
-          <div class="col portfolio section-description wow fadeIn">
-            <h2>Novedades</h2>
-            <div class="divider-1 wow fadeInUp"><span></span></div>
-            <p>
-              Cada año nos proponemos nuevos desafíos, mantenete al tanto de
-              nuestras novedades!
-            </p>
+          <div class="col productos section-description wow fadeIn">
+            <h2>Residuos como Recursos</h2>
           </div>
         </div>
+    
+  
         <div class="row">
-          <div class="col-md-4 portfolio-box wow fadeInUp">
-            <div class="portfolio-box-image">
-              <img
-                src="assets/img/portfolio/1.jpg"
-                alt=""
-                data-at2x="assets/img/portfolio/1.jpg"
-              />
+          <div class="col-lg-6 col-md-12 col-sm-12 wow fadeInDown">
+            <div id="contenedor-slider" class="contenedor-slider">
+              <div id="slider" class="slider">
+                <section class="slider__section"><img src="assets/img/recursos/recursos01.jpg" class="slider__img"></section>
+                <section class="slider__section"><img src="assets/img/recursos/recursos02.jpg" class="slider__img"></section>
+                <section class="slider__section"><img src="assets/img/recursos/recursos03.jpg" class="slider__img"></section>
+                <section class="slider__section"><img src="assets/img/recursos/recursos04.jpg" class="slider__img"></section>
+                <section class="slider__section"><img src="assets/img/recursos/recursos05.jpg" class="slider__img"></section>
+              </div>
+              <div id="btn-prev" class="btn-prev">&#60;</div>
+              <div id="btn-next" class="btn-next">&#62;</div>
+              
             </div>
-            <h3>
-              <a href="#">Convocatoria: Carrefour Solidario 2019</a>
-              <i class="fas fa-angle-right"></i>
-            </h3>
-            <div class="portfolio-box-date">
-              <i class="far fa-calendar"></i> March 2018
-            </div>
-            <p>
-              Queremos construir huertas en 5 escuelas de barrios vulnerables de
-              CABA para cambiar la alimentación de más de 500 alumnos, ¡Ayudanos
-              con tu voto!
-            </p>
           </div>
-          <div class="col-md-4 portfolio-box wow fadeInDown">
-            <div class="portfolio-box-image">
-              <img
-                src="assets/img/portfolio/2.jpg"
-                alt=""
-                data-at2x="assets/img/portfolio/2.jpg"
-              />
-            </div>
-            <h3>
-              <a href="#">Expanish en la Huerta</a>
-              <i class="fas fa-angle-right"></i>
-            </h3>
-            <div class="portfolio-box-date">
-              <i class="far fa-calendar"></i> February 2018
-            </div>
-            <p>
-              Recibimos a jovenes de distintos países, quienes aprendieron y
-              trabajaron en nuestra huerta
-            </p>
-          </div>
-          <div class="col-md-4 portfolio-box wow fadeInUp">
-            <div class="portfolio-box-image">
-              <img
-                src="assets/img/portfolio/3.jpg"
-                alt=""
-                data-at2x="assets/img/portfolio/3.jpg"
-              />
-            </div>
-            <h3>
-              <a href="#">Created 150 flyers</a>
-              <i class="fas fa-angle-right"></i>
-            </h3>
-            <div class="portfolio-box-date">
-              <i class="far fa-calendar"></i> January 2018
-            </div>
-            <p></p>
+          <div class="col-lg-6 col-md-12 col-sm-12 services-box wow fadeInDown">
+            <h3>Reutilización de residuos</h3>
+            <p>Si observamos la naturaleza, no existe  “algo que no sirva”, cada componente cumple un rol vital dentro de un sistema mayor. Sin embargo, los seres humanos creamos el concepto de “basura” para denominar a aquellas cosas frente a las cuales no hemos encontrado utilidad. Lo positivo es que está en nuestras mentes y en nuestras manos dejar de generarla.</p>
+            <p>El mejor residuo es el que no se genera. De todas formas, te compartimos algunas ideas para reutilizarlos en la huerta:  neumáticos que se convierten en macetas, pallets de madera transformados en cómodos sillones, frascos de mermelada que almacenan semillas, cds viejos para ahuyentar pájaros y botellas de plástico que protegen las plantas del frío… existen cientos de ejemplos para reutilizar nuestros residuos cotidianos, ¡el límite está en nuestra mente!</p>
+            <a href="https://www.youtube.com/channel/UCliYzczCZCH1U4su-ORcxGA" target="_blank" class="btn btn-sumate">¡Seguínos en YouTube!</a>
+
           </div>
         </div>
       </div>
     </div>
-    -->
-  <!-- #endregion-->
 
-  <!-- pilares -->
+<!-- Productos -->
 
-
-  <div class="pilares-container section-container section-container-gray-bg">
+  <div class="productos-container section-container section-container-image-bg">
     <div class="container">
       <div class="row">
-        <div class="col services section-description wow fadeIn">
-          <h2>Pilares</h2>
-          <div class="divider-1 wow fadeInUp"><span></span></div>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-12 col-lg-7 about-us-box wow fadeInLeft">
-          <div class="about-us-box-text">
-            <h3 style="font-weight:bold">Agroecología</h3>
-            <p class="medium-paragraph">
-              Filosofía de producción agropecuaria que toma en consideración el ecosistema,
-              la geografía, la biodiversidad, la cultura del lugar y complementa los avances de la
-              ciencia moderna con los saberes ancestrales de los productores. Promueve el trabajo autogestivo y
-              comunitario.
-              No utiliza ningún tipo de veneno o fertilizante de origen industrial sino que utiliza productos que no
-              tengan
-              impactos secundarios en la salud de las personas, los animales y la naturaleza fomentando un equilibrio
-              ecológico. Toma como principios el comercio justo, la inclusión social y la soberanía alimentaria.
-            </p>
-          </div>
-        </div>
-        <div class="col-12 col-lg-5 about-us-box wow fadeInUp">
-          <div class="about-us-box-img">
-            <img src="assets/img/Pilares/1.jpg" alt="about" data-at2x="assets/img/about/1.jpg" />
-          </div>
-        </div>
-      </div>
-
-      <div class="row">
-        <div class="col-12 col-lg-5 about-us-box wow fadeInUp">
-          <div class="about-us-box-img">
-            <img src="assets/img/Pilares/2.jpg" alt="about" data-at2x="assets/img/about/1.jpg" />
-          </div>
-
-        </div>
-        <div class="col-12 col-lg-7 about-us-box wow fadeInRight">
-          <div class="about-us-box-text">
-            <h3 style="font-weight:bold">Desarrollo Sustentable</h3>
-            <p class="medium-paragraph">
-              TEXTO TEXTO TEXTO TEXTO TEXTO TEXTOTEXTO TEXTO TEXTOTEXTO TEXTO TEXTO
-              TEXTO TEXTO TEXTOTEXTO TEXTO TEXTOTEXTO TEXTO TEXTOTEXTO TEXTO TEXTO
-              TEXTO TEXTO TEXTOTEXTO TEXTO TEXTOTEXTO TEXTO TEXTOTEXTO TEXTO TEXTO
-              TEXTO TEXTO TEXTOTEXTO TEXTO TEXTOTEXTO TEXTO TEXTOTEXTO TEXTO TEXTO
-              TEXTO TEXTO TEXTOTEXTO TEXTO TEXTOTEXTO TEXTO TEXTOTEXTO TEXTO TEXTO
-              TEXTO TEXTO TEXTOTEXTO TEXTO TEXTOTEXTO TEXTO TEXTOTEXTO TEXTO TEXTO
-              TEXTO TEXTO TEXTOTEXTO TEXTO TEXTOTEXTO TEXTO TEXTOTEXTO TEXTO TEXTO
-              TEXTO TEXTO TEXTOTEXTO TEXTO TEXTOTEXTO TEXTO TEXTOTEXTO TEXTO TEXTOTEXTO TEXTO TEXTO
-            </p>
-          </div>
-        </div>
-      </div>
-
-      <div class="row">
-        <div class="col-12 col-lg-7 about-us-box wow fadeInLeft">
-          <div class="about-us-box-text">
-            <h3 style="font-weight:bold">Educación Ambiental</h3>
-            <p class="medium-paragraph">
-              El proceso de adquisición de valores y clarificación de conceptos cuyo objetivo es
-              desarrollar aptitudes y capacidades necesarias para entender y apreciar las interrelaciones
-              entre el hombre, su cultura y su entorno biofísico.
-
-
-            </p>
-          </div>
-        </div>
-        <div class="col-12 col-lg-5 about-us-box wow fadeInUp">
-          <div class="about-us-box-img">
-            <img src="assets/img/Pilares/3.jpg" alt="about" data-at2x="assets/img/about/1.jpg" />
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-
-
-  <div class="testimonials-container section-container section-container-image-bg">
-    <div class="container">
-      <div class="row">
-        <div class="col testimonials section-description wow fadeIn">
-          <h3>Comenzá tu huerta con nuestros plantines</h3>
+        <div class="col productos section-description wow fadeIn">
+          <h2>Productos</h2>
+          <p>Los productos que ofrecemos son una alternativa natural para comenzar tu huerta. Bajo un enfoque agroecológico, cada plantin y cada semilla son producidos con sustratos de alta calidad para garantizar un crecimiento sano y equilibrado. Durante su desarrollo utilizamos fertilizantes y preparados naturales a base de insumos que no dañan la salud ni el ambiente. </p>
         </div>
       </div>
 
 
       <div class="row">
-        <div class="col-md-10 offset-md-1 testimonial-list wow fadeInUp">
+        <div class="col-md-10 offset-md-1 producto-list wow fadeInUp">
           <div class="tab-content" id="myTabContent">
+
             <div class="tab-pane fade show active" id="tab1" role="tabpanel" aria-labelledby="tab1-tab">
-              <div class="testimonial-image">
-                <img src="assets/img/plantines/lechuga.png" alt="testimonial-1"
-                  data-at2x="assets/img/testimonials/1.jpg" />
+              <div class="producto-image">
+                <img src="assets/img/productos/huerta.jpg" alt="producto-huerta"
+                  data-at2x="assets/img/productos/huerta.jpg" />
               </div>
-              <div class="testimonial-text">
-                <p>
-                  <h3>Lechuga</h3>
+
+              <div class="producto-text">
+                <h3>Hortalizas de estación</h3>
+                <p>Las estaciones del año, además de brindarnos días más cálidos en verano y fríos en invierno, dan las condiciones necesarias para el crecimiento y desarrollo de determinadas frutas y verduras. Estas hortalizas de estación nos garantizan todo el aporte nutricional necesario para atravesar esas condiciones. No te prives de vivir la experiencia de cosechar tu propio alimento, consultá por nuestra variedad de plantines disponibles.
                 </p>
               </div>
             </div>
+
             <div class="tab-pane fade" id="tab2" role="tabpanel" aria-labelledby="tab2-tab">
-              <div class="testimonial-image">
-                <img src="assets/img/testimonials/2.jpg" alt="testimonial-2"
-                  data-at2x="assets/img/testimonials/2.jpg" />
+              <div class="producto-image">
+                <img src="assets/img/productos/medicinales.jpg" alt="producto-medicinales"
+                  data-at2x="assets/img/productos/medicinales.jpg" />
               </div>
-              <div class="testimonial-text">
-                <p>
-                  "Ut wisi enim ad minim veniam, quis nostrud exerci tation
-                  ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo
-                  consequat. Ut wisi enim ad minim veniam, quis nostrud exerci
-                  tation ullamcorper suscipit lobortis nisl ut aliquip."<br />
-                  <a href="#">Minim Veniam, nostrud.com</a>
-                </p>
+
+              <div class="producto-text">
+                <h3>Plantas Medicinales</h3>
+                <p>Muchas de las plantas presentes en la huerta poseen propiedades medicinales que, gracias a sus principios activos, tienen el poder de tratar o prevenir diversas molestias o enfermedades. Recuperar estos saberes ancestrales nos da la posibilidad de tener una actitud más proactiva a la hora de cuidar nuestra salud. Animate a tener tu propio botiquín huertero en la comodidad de tu casa.</p>
               </div>
             </div>
+
             <div class="tab-pane fade" id="tab3" role="tabpanel" aria-labelledby="tab3-tab">
-              <div class="testimonial-image">
-                <img src="assets/img/testimonials/3.jpg" alt="testimonial-3"
-                  data-at2x="assets/img/testimonials/3.jpg" />
+              <div class="producto-image">
+                <img src="assets/img/productos/aromaticas.jpg" alt="producto-aromaticas"
+                  data-at2x="assets/img/productos/aromaticas.jpg" />
               </div>
-              <div class="testimonial-text">
-                <p>
-                  "Lorem ipsum dolor sit amet, consectetur adipisicing elit,
-                  sed do eiusmod tempor incididunt ut labore et. Lorem ipsum
-                  dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                  tempor incididunt ut labore et. Lorem ipsum dolor sit
-                  amet."<br />
-                  <a href="#">Lorem Ipsum, dolor.co.uk</a>
-                </p>
+
+              <div class="producto-text">
+                <h3>Plantas Aromáticas</h3>
+                <p>Las plantas aromáticas tienen un rol esencial en la huerta agroecológica: atraen polinizadores favoreciendo la biodiversidad; sus aromas alejan a insectos perjudiciales; perfuman el ambiente con su esencia, creando un lugar agradable para el trabajo con la naturaleza; y proveen del material necesario para realizar preparados naturales para el control de aquellos insectos que desequilibran nuestro sistema.</p>
               </div>
             </div>
+
             <div class="tab-pane fade" id="tab4" role="tabpanel" aria-labelledby="tab4-tab">
-              <div class="testimonial-image">
-                <img src="assets/img/testimonials/4.jpg" alt="" data-at2x="assets/img/testimonials/4.jpg" />
+              <div class="producto-image">
+                <img src="assets/img/productos/nativas.jpg" alt="producto-semillas" data-at2x="assets/img/productos/nativas.jpg" />
               </div>
-              <div class="testimonial-text">
-                <p>
-                  "Ut wisi enim ad minim veniam, quis nostrud exerci tation
-                  ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo
-                  consequat. Ut wisi enim ad minim veniam, quis nostrud exerci
-                  tation ullamcorper suscipit lobortis nisl ut aliquip."<br />
-                  <a href="#">Minim Veniam, nostrud.com</a>
-                </p>
+
+              <div class="producto-text">
+                <h3>Plantas Nativas</h3>
+                <p>Las plantas nativas son aquellas originarias de cada región, adaptadas a las condiciones físicas, químicas y climáticas de cada sector. Son la base a partir de la cual se conforman las redes que unen a la flora y la fauna, y además dan identidad a cada ambiente. Estas plantas proveen de alimento y lugares propicios de reproducción a insectos nativos, como diversas especies de mariposas.</p>
+              </div>
+            </div>
+
+            <div class="tab-pane fade" id="tab5" role="tabpanel" aria-labelledby="tab5-tab">
+              <div class="producto-image">
+                <img src="assets/img/productos/semillas.jpg" alt="producto-semillas" data-at2x="assets/img/productos/semillas.jpg" />
+              </div>
+
+              <div class="producto-text">
+                <h3>Semillas</h3>
+                <p>El actual modelo de producción de alimentos reduce día a día la diversidad de hortalizas que llegan a nuestra mesa, atentando contra la biodiversidad y la identidad de las comunidades. La gran variedad de plantas presentes en nuestra huerta es posible gracias al intercambio y la autoproducción de semillas. El preservarlas e intercambiarlas es una forma de proteger la biodiversidad como aporte a la soberanía alimentaria. Consultá por nuestras semillas disponibles.</p>
               </div>
             </div>
             
@@ -497,18 +393,219 @@
               <a class="nav-link" id="tab4-tab" data-toggle="tab" href="#tab4" role="tab" aria-controls="tab4"
               aria-selected="false"></a>
             </li>
+            <li class="nav-item">
+              <a class="nav-link" id="tab4-tab" data-toggle="tab" href="#tab5" role="tab" aria-controls="tab5"
+              aria-selected="false"></a>
+            </li>
             
           </ul>
         </br>
-          <a href="mailto:info@raicesurbanas.com.ar?subject=Consulta sobre Plantines&body=Hola! Quería saber que plantines tienen disponibles para vender." target="_blank" class="btn btn-success">Reservar Ya!</a>
-      </br><span>*La variedad depende de la temporada</span>
+          <a href="#contacto" class="btn btn-success">¡Reservar ya!</a>
+
         </div>
       </div>
     </div>
   </div>
 
-  <!-- Blog -->
-  <div class="blog-container section-container">
+
+  <!--#portfolio novedades
+  <div class="portfolio-container section-container">
+      <div class="container">
+        <div class="row">
+          <div class="col portfolio section-description wow fadeIn">
+            <h2>Voluntarixs</h2>
+            <div class="divider-1 wow fadeInUp"><span></span></div>
+            <p>
+              Te ofrecemos en nuestra huerta un programa de voluntariado, un espacio de experimentación conjunta, aprendizaje y difusión que potencian el trabajo en equipo y las acciones de impacto ambiental y social.
+
+            </p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-6 portfolio-box wow fadeInUp">
+            <div class="portfolio-box-image">
+              <img
+                src="assets/img/portfolio/1.jpg"
+                alt=""
+                data-at2x="assets/img/portfolio/1.jpg"
+              />
+            </div>
+            <h3>
+              <a href="#">Convocatoria: Carrefour Solidario 2019</a>
+              <i class="fas fa-angle-right"></i>
+            </h3>
+            <div class="portfolio-box-date">
+              <i class="far fa-calendar"></i> March 2018
+            </div>
+            <p>
+              Queremos construir huertas en 5 escuelas de barrios vulnerables de
+              CABA para cambiar la alimentación de más de 500 alumnos, ¡Ayudanos
+              con tu voto!
+            </p>
+          </div>
+
+          <div class="col-md-6 portfolio-box wow fadeInUp">
+            <div class="portfolio-box-image">
+              <img
+                src="assets/img/portfolio/1.jpg"
+                alt=""
+                data-at2x="assets/img/portfolio/1.jpg"
+              />
+            </div>
+            <h3>
+              <a href="#">Convocatoria: Carrefour Solidario 2019</a>
+              <i class="fas fa-angle-right"></i>
+            </h3>
+            <div class="portfolio-box-date">
+              <i class="far fa-calendar"></i> March 2018
+            </div>
+            <p>
+              Queremos construir huertas en 5 escuelas de barrios vulnerables de
+              CABA para cambiar la alimentación de más de 500 alumnos, ¡Ayudanos
+              con tu voto!
+            </p>
+          </div>
+
+          <div class="col-md-6 portfolio-box wow fadeInUp">
+            <div class="portfolio-box-image">
+              <img
+                src="assets/img/portfolio/3.jpg"
+                alt=""
+                data-at2x="assets/img/portfolio/3.jpg"
+              />
+            </div>
+            <h3>
+              <a href="#">Created 150 flyers</a>
+              <i class="fas fa-angle-right"></i>
+            </h3>
+            <div class="portfolio-box-date">
+              <i class="far fa-calendar"></i> January 2018
+            </div>
+            <p></p>
+          </div>
+        </div>
+      </div>
+    </div>-->
+
+
+<!-- Voluntarios-->
+
+  <div class="voluntarios-container section-container">
+    <div class="container">
+      <div class="row">
+        <div class="col services section-description wow fadeIn">
+          <h2>Voluntarixs</h2>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-12 col-lg-7 voluntarios-box wow fadeInLeft">
+          <div class="about-us-box-text">
+            <h3 style="font-weight:bold">¿Querés ser voluntarix?</h3>
+            <p class="medium-paragraph">Nuestro proyecto se sustenta gracias al aporte y compromiso de todas las personas que día a día hacen posible que esto suceda, y nuestra mayor satisfacción es ver la llegada de nuevxs integrantes comprometidxs con la preservación del ambiente en pos de construir una sociedad más consciente y respetuosa con la vida que nos rodea. </p>
+            <p>Si te movilizan las problemáticas socioambientales y te sentís identificadx con nuestro mensaje, tenemos un lugar para vos. En nuestra huerta te ofrecemos un espacio de aprendizaje y experimentación contínua, un entorno confortable de trabajo en equipo donde compartir y desarrollarse en pos del bien común, porque la salida es en conjunto. ¿Te interesa saber más?</p>
+            <a href="#contacto" class="btn btn-sumate"> ¡Escribinos!</a>
+          </div>
+        </div>
+        <div class="col-12 col-lg-5 portfolio-box wow fadeInUp">
+          <div class="portfolio-box-image">
+            <img src="assets/img/voluntarios/voluntarios01.jpg" alt="about" data-at2x="assets/img/about/1.jpg" />
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>   
+
+
+<!-- Contacto -->
+
+  <div class="contacto-container section-container section-container-lightgreen-bg">
+    <div class="container">
+      <div class="col contacto section-description wow fadeIn">
+        <h2>Contacto</h2>
+        <p>Si te interesa conocer más sobre nuestro proyecto, te quedaste con alguna duda o simplemente querés contactarte con nosotrxs, acá te dejamos un espacio para que nos escribas. ¡Respondemos cada uno de los mensajes que nos llegan!</p>
+      </div>
+<!--
+      <section id="contacto">
+        <div class="contenedor-contacto wow fadeInLeft">
+          <form id="contactForm" name="sentMessage" novalidate="novalidate">
+            <input id="name" type="text" placeholder="Nombre">
+            <input id="email" type="email" placeholder="Mail">
+            <datalist id="opcion">
+              <option value="Ser voluntario">
+              <option value="Comprar plantines">
+              <option value="Conocer la huerta">
+              <option value="Inscribirme a un taller">
+              <option value="Otro motivo">
+            </datalist>
+            <input list="opcion" placeholder="Quiero...">
+            <textarea id="message" name="" id="" cols="30" rows="10" placeholder="Mensaje"></textarea>
+            <button id="sendMessageButton" class="btn btn-sumate btn-xl text-uppercase" type="submit">Enviar</button>
+            <div class="data">
+              <p><strong>Dirección: </strong>Tte. Gral. Perón 3638, Almagro, CABA</p>
+              <p><strong>Email:</strong>info@raicesurbanas.com.ar</p>
+            </div>
+          </form>
+          <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13135.564851246776!2d-58.417872!3d-34.6069123!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xa05a81686d04fcfc!2sRaices%20Urbanas!5e0!3m2!1ses-419!2sar!4v1590091882779!5m2!1ses-419!2sar" allowfullscreen=""></iframe>
+        </div>
+      </section> -->
+
+      <section id="contacto">
+        <div class="contenedor-contacto wow fadeInLeft">
+          <form action="contact_me.php" method="post" id="contactForm" name="sentMessage" novalidate="novalidate">
+            <div class="row">
+              <div class="col-md-12">
+                <div class="form-group">
+                  <input class="form-control" name="name"  id="name" type="text" placeholder="Tu nombre *" required="required" data-validation-required-message="Ingresa tu nombre.">
+                  <!--<p class="help-block text-danger"></p>-->
+                </div>
+                <div class="form-group">
+                  <input class="form-control" name="email" id="email" type="email" placeholder="Tu email *" required="required" data-validation-required-message="Ingresa una direccion de email.">
+                  <!--<p class="help-block text-danger"></p>-->
+                </div>
+                <div class="form-group">
+                  <input class="form-control" list="opcion"  name="option" id="option" type="" placeholder="Quiero..."  data-validation-required-message="Ingresa una opción.">
+                  <datalist id="opcion">
+                    <option value="Ser voluntario">
+                    <option value="Comprar plantines">
+                    <option value="Conocer la huerta">
+                    <option value="Inscribirme a un taller">
+                    <option value="Otro motivo">
+                  </datalist>
+                  <!--<p class="help-block text-danger"></p>-->
+                </div>
+                <div class="form-group">
+                  <textarea class="form-control"  name="message" id="message" placeholder="Tu mensaje *" required="required" data-validation-required-message="Ingresa un mensaje."></textarea>
+                  <!--<p class="help-block text-danger"></p>-->
+                </div>
+                <div class="clearfix">
+                </div>                  
+                <div id="success">                    
+                </div>
+                <button id="sendMessageButton" class="btn btn-sumate btn-xl text-uppercase" type="submit">Enviar Mensaje</button>
+              </div>
+                  <address class="col-md-12 col-sm-12 address">
+                    <div class="info">                  
+                      <i class="fas fa-map-marker-alt"></i>
+                      <p>Tte. Gral. Perón 3638, Almagro, CABA</p>
+                    </div>
+                    <div class="info"><i class="fas fa-envelope"></i>
+                      <p>info@raicesurbanas.com.ar</p>
+                    </div>
+                    <!--<div class="info"><i class="fas fa-mobile-alt"></i>
+                      <p>+54 9 351 - 355-1352</p>
+                    </div>
+                    <div class="info"><i class="fas fa-clock"></i><p>9 a 18hs</p></div>-->
+                  </address>
+            </div>
+          </form>     
+          <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13135.564851246776!2d-58.417872!3d-34.6069123!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xa05a81686d04fcfc!2sRaices%20Urbanas!5e0!3m2!1ses-419!2sar!4v1590091882779!5m2!1ses-419!2sar" allowfullscreen=""></iframe>
+        </div>
+      </section>
+    </div>
+  </div>
+  
+  <!-- Blog 
+  <div class="blog-container section-container section-container-lightgreen-bg">
     <div class="container">
       <div class="row">
         <div class="col blog section-description wow fadeIn">
@@ -521,40 +618,32 @@
         <div class="col-md-6 blog-box wow fadeInLeft">
           <div class="row">
             <div class="col-md-9">
-
+             
+              <div class="contenedor-contacto">
+                <form >
+                  <input type="text" id="nombre" placeholder="Nombre"  aria-describedby="emailHelp">
+                  <input type="email" id="email" placeholder="Mail"  aria-describedby="emailHelp">
+                  <datalist id="opcion">
+                    <option value="Ser voluntario">
+                    <option value="Comprar plantines">
+                    <option value="Conocer la huerta">
+                    <option value="Inscribirme a un taller">
+                    <option value="Otro motivo">
+				          </datalist>
+                  <textarea class="form-control" id="exampleFormControlTextarea1" cols="30" rows="20" placeholder="Mensaje" ></textarea>
+                  <div class="form-check">
+                    <input type="checkbox">
+                    <label class="form-check-label" for="exampleCheck1">Deseo recibir el newslatter con información</label>
+                  </div>
+                  <button type="submit" class="btn btn-success">Enviar</button>
+                </form>
+              </div>   
               <div class="row">
-                <span>
-                  <strong>Dirección</strong> </br> Tte. Gral. Perón 3638, Almagro, CABA
-                </span>
-                <span>
-                  <strong>Email</strong> </br> info@raicesurbanas.com.ar
-                </span>
+                <p><strong>Dirección: </strong></p>
+                <p>Tte. Gral. Perón 3638, Almagro, CABA</p>
+                <p><strong>Email</strong></p>
+                <p>info@raicesurbanas.com.ar</p>
               </div>
-
-              <!-- <form>
-                <div class="form-group">
-                  <label for="Nombre">Nombre</label>
-                  <input type="text" class="form-control" id="nombre" aria-describedby="emailHelp">
-                </div>
-                <div class="form-group">
-                  <label for="email">Email</label>
-                  <input type="email" class="form-control" id="email" aria-describedby="emailHelp"
-                    placeholder="ejemplo@mail.com">
-                  <small id="emailHelp" class="form-text text-muted">No compartiremos tu información con nadie
-                    más.</small>
-                </div>
-                <div class="form-group">
-                  <label for="exampleFormControlTextarea1">Escribinos tu consulta o comentario acá</label>
-                  <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-                </div>
-                <div class="form-check">
-                  <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                  <label class="form-check-label" for="exampleCheck1">Deseo recibir información sobre los proximos
-                    talleres y actividades</label>
-                </div>
-                </br>
-                <button type="submit" class="btn btn-success">Enviar</button>
-              </form> -->
             </div>
           </div>
         </div>
@@ -563,14 +652,14 @@
             <div class="col-md-12 blog-box wow fadeInRight">
               <div class="row">
                 <div class="col-md-12">
-                  <!--Google map-->
+                  <Google map>
                   <div id="map-container-google-1" class="z-depth-1-half map-container" style="height: 500px">
                     <iframe
                       src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3283.8912135845344!2d-58.42006068426358!3d-34.60691228045866!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcca601bd6d00d%3A0xa05a81686d04fcfc!2sRaices+Urbanas!5e0!3m2!1ses-419!2sar!4v1552068631105"
                       width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
                   </div>
 
-                  <!--Google Maps-->
+                  <Google Maps
                 </div>
               </div>
             </div>
@@ -580,7 +669,7 @@
 
 
     </div>
-  </div>
+  </div>-->
 
 
   <!-- Talleres Modals -->
@@ -592,7 +681,7 @@
     <div class="modal-dialog" role="document">
       <div class="modal-content">
         <div class="modal-header">
-          <h5 class="modal-title" id="exampleModalLongTitle">Introduccion a la Huerta Urbana</h5>
+          <h5 class="modal-title" id="exampleModalLongTitle">Intro a la Huerta Urbana</h5>
           <button type="button" class="close" data-dismiss="modal" aria-label="Close">
             <span aria-hidden="true">&times;</span>
           </button>
@@ -600,14 +689,14 @@
         <div class="modal-body">
           <div class="container">
             <div class="row justify-content-center">
-              <div class="col-lg-8">
+              <div class="col-lg-12">
 
                 <!-- Portfolio Modal - Image -->
-                <img class="img-fluid rounded mb-5" src="assets/img/Talleres/introhuerta.jpg" alt="">
+                <img class="img-fluid rounded mb-5" src="assets/img/talleres/introhuerta.jpg" alt="">
                 <!-- Portfolio Modal - Text -->
-                <p class="mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam
-                  nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae?
-                  Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
+                <p class="">¡Animate e iniciá tu huerta en 10 simples pasos! Tipos y formas de siembra, requerimientos de los cultivos, técnicas de mantenimiento: en el taller veremos los aspectos más importantes a tener en cuenta a la hora de comenzar tu huerta, junto con ideas y materiales especialmente diseñados para espacios urbanos.</p>
+                <p><b>¡Que tu alimento sea tu medicina!</b></p>
+                <p class="texto-talleres"> <b>Dirigido a: </b>Apto para todo público</p>
               </div>
             </div>
           </div>
@@ -637,28 +726,11 @@
               <div class="col-lg-12">
 
                 <!-- Portfolio Modal - Image -->
-                <img class="img-fluid rounded mb-5" src="assets/img/Talleres/semillas.jpg" alt="">
+                <img class="img-fluid rounded mb-5" src="assets/img/talleres/semillas-2.jpg" alt="">
                 <!-- Portfolio Modal - Text -->
-                <h3>Descripción</h3>
-                <p class="texto-talleres">Es un programa integral de
-                    educación ambiental pensado para alumnos de colegios
-                    primarios públicos o privados
-                    de Capital Federal y Gran
-                    Buenos Aires de entre 6 y 9
-                    años. Está diseñado con el
-                    objeto de que los alumnos
-                    puedan conocer lo que es una
-                    huerta urbana temática, tener
-                    una experiencia educativa en ella y aprender acerca de la biodiversidad en las ciudades
-                    en las que vivimos. A través de distintas dinámicas lúdicas, los chicos tendrán la
-                    posibilidad de recorrer el espacio, aprendiendo sobre los distintos tipos de plantas
-                    (nativas, medicinales, aromáticas, hortalizas, etcétera) y su importancia en el Ambiente.
-                    La excursión busca que los alumnos puedan repensar de manera colectiva cuál es el
-                    lugar de la naturaleza en las ciudades donde vivimos y cómo nos relacionamos con ella.</p>
-                    <h3>Detalles</h3>
-                    <p class="texto-talleres"> <b>Duración:</b> 2 Horas </br>
-                    <b>Participantes:</b> 10-50 por taller</br>
-                    <b>Lugar:</b> Nuestra huerta en Almagro</p>
+                <p class="texto-talleres">Ofrecemos una vivencia sensorial de experimentación en una huerta urbana, de reconexión con nuestro entorno, revalorizando el rol de lxs niñxs como agentes multiplicadores de cambio. La experiencia consta de dos módulos temáticos a partir de los cuales, mediante diversas actividades lúdicas e interactivas, buscaremos reflexionar sobre la relación que tenemos como seres urbanos con la naturaleza en la que estamos inmersos.</p>
+                <p class="texto-talleres"> <b>Duración:</b> 2 Horas </br>
+                <b>Dirigido a: </b>Nivel Inicial y Primario</br>
               </div>
             </div>
           </div>
@@ -677,7 +749,7 @@
     <div class="modal-dialog" role="document">
       <div class="modal-content">
         <div class="modal-header">
-          <h5 class="modal-title" id="exampleModalLongTitle">Compost y Lumbricario</h5>
+          <h5 class="modal-title" id="exampleModalLongTitle">Compost Domiciliario</h5>
           <button type="button" class="close" data-dismiss="modal" aria-label="Close">
             <span aria-hidden="true">&times;</span>
           </button>
@@ -685,14 +757,13 @@
         <div class="modal-body">
           <div class="container">
             <div class="row justify-content-center">
-              <div class="col-lg-8">
+              <div class="col-lg-12">
 
                 <!-- Portfolio Modal - Image -->
-                <img class="img-fluid rounded mb-5" src="assets/img/Talleres/compost.jpg" alt="">
+                <img class="img-fluid rounded mb-5" src="assets/img/talleres/compost.jpg" alt="">
                 <!-- Portfolio Modal - Text -->
-                <p class="mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam
-                  nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae?
-                  Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
+                <p class="">¿Querés empezar a hacer compost en tu casa y no sabés por dónde empezar? ¡Esta es tu oportunidad! Qué agregar y en qué cantidad, mantenimiento y aspectos básicos a tener en cuenta. En este taller teórico- práctico te vas con tu compostera abajo del brazo, toda la información y la motivación para arrancar. 
+                <p class="texto-talleres"> <b>Dirigido a: </b>Apto para todo público</p>
               </div>
             </div>
           </div>
@@ -719,14 +790,13 @@
         <div class="modal-body">
           <div class="container">
             <div class="row justify-content-center">
-              <div class="col-lg-8">
+              <div class="col-lg-12">
 
                 <!-- Portfolio Modal - Image -->
-                <img class="img-fluid rounded mb-5" src="assets/img/Talleres/medicinales.jpg" alt="">
+                <img class="img-fluid rounded mb-5" src="assets/img/talleres/medicinales.jpg" alt="">
                 <!-- Portfolio Modal - Text -->
-                <p class="mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam
-                  nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae?
-                  Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
+                <p class="">Armá tu Botiquín de hierbas en este taller sobre plantas aromáticas y medicinales presentes en la huerta: Aloe Vera, Amaranto, Caléndula, Lavanda, Llantén, Manzanilla, Melisa, Orégano, Romero, Sen del Campo, Taco de Reina, ¡y muchas más!. Aprendé las técnicas de extracción de sus principios activos y los usos en nuestra salud y en las plantas.</p>
+                <p class="texto-talleres"> <b>Dirigido a: </b>Apto para todo público</p>
               </div>
             </div>
           </div>
@@ -745,7 +815,7 @@
     <div class="modal-dialog" role="document">
       <div class="modal-content">
         <div class="modal-header">
-          <h5 class="modal-title" id="exampleModalLongTitle">Huertas y Jardines Verticales</h5>
+          <h5 class="modal-title" id="exampleModalLongTitle">Control de plagas</h5>
           <button type="button" class="close" data-dismiss="modal" aria-label="Close">
             <span aria-hidden="true">&times;</span>
           </button>
@@ -753,13 +823,13 @@
         <div class="modal-body">
           <div class="container">
             <div class="row justify-content-center">
-              <div class="col-lg-8">
+              <div class="col-lg-12">
 
                 <!-- Portfolio Modal - Image -->
-                <img class="img-fluid rounded mb-5" src="assets/img/Talleres/vertical.jpg" alt="">
+                <img class="img-fluid rounded mb-5" src="assets/img/talleres/plagas.jpg" alt="">
                 <!-- Portfolio Modal - Text -->
-                <p class="mb-5">Introducción al diseño y armado de huertas y jardines sobre muros o paredes,
-                  maximizando el uso del espacio a la hora de diseñar nuestra huerta.</p>
+                <p class="">En este taller se brindarán las herramientas necesarias para prevenir las plagas antes de su desarrollo mediante la aplicación de técnicas que fomenten el equilibrio del ecosistema. Conoceremos la fauna de aparición más frecuente para luego aprender diferentes métodos de control ante desequilibrios focalizando en la elaboración de biopreparados caseros.</p>
+                <p class="texto-talleres"> <b>Dirigido a: </b>Apto para todo público</p>
               </div>
             </div>
           </div>
@@ -786,24 +856,58 @@
         <div class="modal-body">
           <div class="container">
             <div class="row justify-content-center">
-              <div class="col-lg-8">
+              <div class="col-lg-12">
 
                 <!-- Portfolio Modal - Image -->
-                <img class="img-fluid rounded mb-5" src="assets/img/Talleres/hidro.jpg" alt="">
+                <img class="img-fluid rounded mb-5" src="assets/img/talleres/hidroponia.jpg" alt="">
                 <!-- Portfolio Modal - Text -->
-                <p class="mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam
-                  nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae?
-                  Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
+                <p class="">Al querer iniciar un proyecto en hidroponia pueden surgir diferentes dudas y preguntas: ¿Qué plantas me convendría cultivar? ¿Qué recipientes o contenedores usar?¿En qué sustrato sembrar? ¿Cómo y con qué regar?¿Cuánto debo invertir? Estas dudas y muchas más van a ser historia antigua luego de que participes del taller.</p>
+                <p class="texto-talleres"> <b>Dirigido a: </b>Apto para todo público</p>
               </div>
             </div>
           </div>
         </div>
+
+
         <div class="modal-footer">
           <button type="button" class="btn btn-info" data-dismiss="modal">Cerrar</button>
         </div>
       </div>
     </div>
   </div>
+
+   <!--7 Modal Capacitación Docente -->
+
+   <div class="modal fade" id="tallerModal7" tabindex="-1" role="dialog" aria-labelledby="portfolioModal1Label"
+   aria-hidden="true">
+   <div class="modal-dialog" role="document">
+     <div class="modal-content">
+       <div class="modal-header">
+         <h5 class="modal-title" id="exampleModalLongTitle">Capacitación Docente en educación ambiental</h5>
+         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+           <span aria-hidden="true">&times;</span>
+         </button>
+       </div>
+       <div class="modal-body">
+         <div class="container">
+           <div class="row justify-content-center">
+             <div class="col-lg-12">
+
+               <!-- Portfolio Modal - Image -->
+               <img class="img-fluid rounded mb-5" src="assets/img/talleres/vertical.jpg" alt="">
+               <!-- Portfolio Modal - Text -->
+               <p class="">Tomando en cuenta el rol protagónico que poseen lxs niñxs como agentes de cambio, proponemos la presentación de diversas herramientas y recursos didácticos de educación ambiental para contribuir a la generación de contenidos y a la adquisición de nuevos saberes vinculados a la sustentabilidad desde una visión holística.
+              </p>
+             </div>
+           </div>
+         </div>
+       </div>
+       <div class="modal-footer">
+         <button type="button" class="btn btn-info" data-dismiss="modal">Cerrar</button>
+       </div>
+     </div>
+   </div>
+ </div>
 
 
 
@@ -813,7 +917,7 @@
       <div class="row">
         <div class="col-md-5 footer-left">
           <p>
-            Copyright &copy; Raices Urbanas 2020
+            Copyright &copy; Raíces Urbanas 2020
           </p>
         </div>
 
@@ -841,7 +945,11 @@
   <script src="assets/js/retina-1.1.0.min.js"></script>
   <script src="assets/js/waypoints.min.js"></script>
   <script src="assets/js/scripts.js"></script>
-  <script src="eliminarmarca.js"></script>
+  <script src="assets/js/eliminarmarca.js"></script>
+ 
+  <!-- Contact form JavaScript -->
+  <script src="assets/js/jqBootstrapValidation.js"></script>
+  <script src="assets/js/contact_me.js"></script>
 </body>
 
 </html>

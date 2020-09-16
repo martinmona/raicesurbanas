@@ -1,0 +1,61 @@
+﻿<!DOCTYPE HTML>
+<html lang="es">
+<head>
+<meta charset="utf-8"/>
+<title>Formulario</title>
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-177058050-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-177058050-1');
+</script>
+
+<link rel="stylesheet" href="assets/css/style.css" />
+<link rel="shortcut icon" href="assets/ico/favicon.png" />
+<style>
+    .regresar{
+        width: 100%;
+    }
+
+    a{
+        background: var(--Principal);
+        padding: 10px 20px;
+        border-radius: 5px;
+        color: #fff;
+        text-align: center;
+    }
+    a:hover{
+        color:#fff;
+    }
+    .container{
+        margin: 0 auto;
+        padding: 3em;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        width: 90%;
+    }
+
+    .btn-regresar:hover{
+        background: var(--Verde-oscuro);
+    }
+
+    @media (min-width: 767px) {
+	.container{
+		width: 70%;
+      }
+    }
+
+</style>
+
+<body>
+    <div class="container">
+        <div class="regresar"><a href="index.html">Regresar</a></div>
+        <p>¡Muchas gracias por comunicarte con nosotrxs! A la brevedad estaremos respondiendo tu mensaje, mientras tanto te invitamos a visitar nuestras redes para contarte nuestras últimas novedades.</p>
+    </div>
+</body>
+</html>
